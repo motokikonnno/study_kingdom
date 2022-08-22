@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Main page="index" />
+      <h1>あああ</h1>
 
       <Footer />
     </div>

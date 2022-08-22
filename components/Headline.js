@@ -9,7 +9,7 @@ export function Headline(props) {
 
             <p className={styles.description}>
             Get started by editing{' '}
-                {props.children}
+            <code className={styles.code}>pages/{props.page}.js</code>
             </p>
         </div>
     );

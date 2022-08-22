@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Headline } from '../components/Headline'
 import { Footer } from '../components/Footer'
+import { Headline } from '../components/Headline'
 import { Link } from '../components/Link'
 import styles from '../styles/Home.module.css'
 
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Headline page="index" />
+        <Headline page="about" />
         <Link />
       </main>
 

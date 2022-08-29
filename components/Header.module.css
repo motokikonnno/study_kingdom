@@ -1,0 +1,15 @@
+.Header_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.link {
+  padding: 16px 24px;
+}
+
+.link:hover {
+  color: #0070f3;
+  border-color: #0070f3;
+}
